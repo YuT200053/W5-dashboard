@@ -1,3 +1,7 @@
+section {
+  margin-left: 296px;
+}
+
 .assignment-list {
   select {
     margin-bottom: $spacer * .375;
@@ -18,9 +22,29 @@
   // /////目前正在觀看的內容
   &-now {
     background-color: $secondary;
+  }
+}
 
-    a {
-      color: $dark;
+.assignment-comment {
+  &-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-right: $spacer * .5;
+
+    img {
+      max-width: 40px;
     }
   }
+
+  .card-body {
+    padding: 16px 32px 22px 16px;
+  }
+}
+
+.code {
+  font-family: 'Roboto Mono', sans-serif;
+  color: $success;
+  background-color: $secondary;
 }

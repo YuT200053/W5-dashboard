@@ -1,10 +1,8 @@
 .nav {
+  position: fixed;
   width: 296px;
   height: 100vh;
-
-  .container {
-    height: 100%;
-  }
+  z-index: 1;
 
   h1 a {
     background-image: url('/assets/images/logo-ANSWER.svg');

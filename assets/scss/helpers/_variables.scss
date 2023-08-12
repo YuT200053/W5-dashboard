@@ -408,6 +408,7 @@ $spacers: (
   //customer
   6:$spacer * 3,
   //customer
+  helf: $spacer * .5 //customer
   ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -648,6 +649,8 @@ $h6-font-size: $font-size-base !default;
 
 // scss-docs-start font-sizes
 $font-sizes: (
+  0:0,
+  //customer
   1: $h1-font-size,
   2: $h2-font-size,
   3: $h3-font-size,
