@@ -39,15 +39,6 @@
     }
   }
 
-  // /////連結互動
-  a {
-    @include zoom(0.2s);
-
-    &:hover {
-      color: $success;
-    }
-  }
-
   // /////目前所在分頁樣式
   &-bar &-now {
     border-left: 4px solid $success;
