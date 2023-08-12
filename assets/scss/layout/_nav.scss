@@ -1,0 +1,59 @@
+.nav {
+  width: 296px;
+  height: 100vh;
+
+  .container {
+    height: 100%;
+  }
+
+  h1 a {
+    background-image: url('/assets/images/logo-ANSWER.svg');
+    background-size: cover;
+    display: block;
+    width: 151px;
+    height: 40px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &-bar li {
+    margin-left: -32px;
+    border-left: 4px solid $secondary;
+  }
+
+  &-user {
+    &-img {
+      max-width: 40px;
+      max-height: 40px;
+      border-radius: 40px;
+      overflow: hidden;
+
+      img {
+        max-width: 40px;
+      }
+    }
+
+    &-info {
+      line-height: $line-height-sm;
+    }
+  }
+
+  // /////連結互動
+  a {
+    @include zoom(0.2s);
+
+    &:hover {
+      color: $success;
+    }
+  }
+
+  // /////目前所在分頁樣式
+  &-bar &-now {
+    border-left: 4px solid $success;
+
+    a {
+      color: $success;
+    }
+  }
+}
