@@ -400,7 +400,8 @@ $spacer: 1rem !default;
 $spacers: (
   0: 0,
   1: $spacer * .25,
-  2: $spacer * .5,
+  2: $spacer * .75,
+  //customer
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 2,
@@ -653,7 +654,9 @@ $font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
-  sm:$font-size-base * 0.875 //customer
+  sm:$font-size-base * 0.875,
+  //customer
+  xs:$font-size-base * 0.75 //customer
   ) !default;
 // scss-docs-end font-sizes
 

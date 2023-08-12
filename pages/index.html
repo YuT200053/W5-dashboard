@@ -15,7 +15,12 @@
         <header class="d-flex justify-content-between align-items-center mb-5">
           <div class="d-flex">
             <h2 class="fs-4 me-5 mb-0 fw-bold">Assignment</h2>
-            <select name="" id="" class="form-select border-0 fw-bold py-0">
+            <select
+              name="assignment"
+              id="assignment"
+              class="form-select border-0 fw-bold py-0"
+              aria-label="assignment"
+            >
               <option value="1" selected>All Courses</option>
               <option value="2">HTML&CSS</option>
               <option value="3">Javascript</option>
@@ -33,7 +38,84 @@
         </header>
         <!-- /////main///// -->
         <main>
-          <h1 class="index-title">我是首頁</h1>
+          <div class="d-flex mt-2">
+            <!-- /////assignment-list///// -->
+            <div class="assignment-list">
+              <select
+                name="assignment-list"
+                id="assignment-list"
+                class="form-select border-0 fw-bold py-0 w-auto"
+                aria-label="assignment-list"
+              >
+                <option value="1" selected>All (4)</option>
+                <option value="2">Chapter 1</option>
+                <option value="3">Chapter 2</option>
+                <option value="4">Final</option>
+              </select>
+              <ul class="list-unstyled border border-light rounded-1">
+                <li class="p-2 assignment-list-now border-bottom">
+                  <a href="#">
+                    <div class="d-flex justify-content-between">
+                      <span class="d-block fs-xs">Chapter Assignment 2</span
+                      ><span class="d-block fs-xs">4 hrs ago</span>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span class="d-block fw-bold">
+                        Please check this file…
+                      </span>
+                      <span class="name d-block fs-xs">Emily Wang</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="p-2 border-bottom">
+                  <a href="#">
+                    <div class="d-flex justify-content-between">
+                      <span class="d-block fs-xs">Chapter Assignment 1</span
+                      ><span class="d-block fs-xs">12 hrs ago</span>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span class="d-block fw-bold"> My Homework </span>
+                      <span class="name d-block fs-xs">David Xu</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="p-2 border-bottom">
+                  <a href="#">
+                    <div class="d-flex justify-content-between">
+                      <span class="d-block fs-xs">Final Assignment</span
+                      ><span class="d-block fs-xs">18 hrs ago</span>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span class="d-block fw-bold">
+                        Have a problem with this…
+                      </span>
+                      <span class="name d-block fs-xs">Tony Wei</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="p-2">
+                  <a href="#">
+                    <div class="d-flex justify-content-between">
+                      <span class="d-block fs-xs">Final Assignment</span
+                      ><span class="d-block fs-xs">19 hrs ago</span>
+                    </div>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <span class="d-block fw-bold"> Did I do it right? </span>
+                      <span class="name d-block fs-xs">Christina Lin</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </main>
       </section>
     </div>

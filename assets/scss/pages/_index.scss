@@ -1,3 +1,26 @@
-.index-title {
-  font-size: 100px;
+.assignment-list {
+  select {
+    margin-bottom: $spacer * .375;
+  }
+
+  li {
+    width: 320px;
+
+    &:hover .name {
+      color: $success;
+    }
+  }
+
+  .name {
+    color: $gray-600;
+  }
+
+  // /////目前正在觀看的內容
+  &-now {
+    background-color: $secondary;
+
+    a {
+      color: $dark;
+    }
+  }
 }
