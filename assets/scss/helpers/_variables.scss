@@ -408,7 +408,9 @@ $spacers: (
   //customer
   6:$spacer * 3,
   //customer
-  helf: $spacer * .5 //customer
+  helf: $spacer * .5,
+  //customer
+  icon:$spacer * 1.875 //customer
   ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -574,7 +576,7 @@ $caret-spacing: $caret-width * .85 !default;
 $transition-base: all .2s ease-in-out !default;
 $transition-fade: opacity .15s linear !default;
 // scss-docs-start collapse-transition
-$transition-collapse: height .35s ease !default;
+$transition-collapse: height .35s ease-in-out !default; //customer
 $transition-collapse-width: width .35s ease !default;
 // scss-docs-end collapse-transition
 
